@@ -31,7 +31,7 @@ public class AuthenticationPage {
     @FindBy(xpath = "//*[@id=\"center_column\"]/div[1]")
     private WebElement loginErrorMessage;
 
-    @FindBy(xpath = "//*[@id=\"create_account_error\"]/ol/li")
+    @FindBy(xpath = "//*[@id=\"create_account_error\"]/ol")
     private WebElement registeredEmailError;
 
 
